@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>AR demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="">
+        <script src="vendor/three.js-master/build/three.min.js"></script>
+
+        <script src="vendor/tracking.js-master/build/tracking-min.js"></script>
+        <script src="vendor/tracking.js-master/build/data/face-min.js"></script>
+        <style>
+         video, canvas { 
+          position: absolute;
+        }
+        </style>
+    </head>
+    <body>
+      <video id = "video"  width="320" height="240" preload autoplay loop muted></video>
+      <canvas id="canvas" width="320" height="240"></canvas>
+    </body>
+    <script src="src/js/util.js"></script>
+</html>

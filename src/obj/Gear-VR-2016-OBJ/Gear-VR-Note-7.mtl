@@ -1,0 +1,225 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 19.08.2016 17:31:26
+
+newmtl black_mate
+	Ns 33.0000
+	Ni 1.2000
+	d 0.9400
+	Tr 0.0600
+	Tf 0.9400 0.9400 0.9400 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0078 0.0118
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl black_color
+	Ns 37.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl wire_135059008
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5294 0.2314 0.0314
+	Kd 0.5294 0.2314 0.0314
+	Ks 0.3500 0.3500 0.3500
+
+newmtl metal_mate
+	Ns 33.0000
+	Ni 1.2000
+	d 0.9400
+	Tr 0.0600
+	Tf 0.9400 0.9400 0.9400 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0078 0.0118
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl cover_body
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0078 0.0118
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Text_Cover_Diffuse.jpg
+	map_Kd Text_Cover_Diffuse.jpg
+	map_refl Text_Cover_Ref.jpg
+
+newmtl copper
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl panel
+	Ns 33.0000
+	Ni 1.2000
+	d 0.9400
+	Tr 0.0600
+	Tf 0.9400 0.9400 0.9400 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0078 0.0118
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Glass
+	Ns 50.0000
+	Ni 1.6000
+	d 0.0300
+	Tr 0.9700
+	Tf 0.0300 0.0300 0.0300 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl camera_static
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0980 0.0980 0.0980
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Crystal
+	Ns 50.0000
+	Ni 1.6000
+	d 0.7200
+	Tr 0.2800
+	Tf 0.7200 0.7200 0.7200 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0471
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl foam
+	Ns 33.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0314 0.0471 0.0863
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Foam_Diffuse.jpg
+	map_Kd Foam_Diffuse.jpg
+	map_bump Foam_Bump.jpg
+	bump Foam_Bump.jpg
+
+newmtl foam_2
+	Ns 33.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0078 0.0118
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Foam_Bump.jpg
+	bump Foam_Bump.jpg
+
+newmtl cover_lens
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0078 0.0078 0.0078
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Cover_Lens_Bump.jpg
+	bump Cover_Lens_Bump.jpg
+
+newmtl Lock_symbol
+	Ns 33.0000
+	Ni 1.2000
+	d 0.9400
+	Tr 0.0600
+	Tf 0.9400 0.9400 0.9400 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0078 0.0118
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump lock_Text_mask.jpg
+	bump lock_Text_mask.jpg
+
+newmtl faric
+	Ns 33.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0078 0.0118
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Fabric_Bump.jpg
+	map_Kd Fabric_Bump.jpg
+	map_bump Fabric_Bump.jpg
+	bump Fabric_Bump.jpg
+
+newmtl leather
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0078 0.0235 0.0627
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Black_Leather_Diffuse.jpg
+	map_Kd Black_Leather_Diffuse.jpg
+	map_bump Black_Leather_Bump.jpg
+	bump Black_Leather_Bump.jpg
+
+newmtl strap
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000

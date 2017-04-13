@@ -1,0 +1,148 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 02.03.2016 23:10:54
+
+newmtl white_plastic
+	Ns 33.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.8627 0.8627 0.8627
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka cover_logo_Diffuse.jpg
+	map_Kd cover_logo_Diffuse.jpg
+	map_bump Noise_Bump.jpg
+	bump Noise_Bump.jpg
+
+newmtl screen_logo
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka screen_logo_Diffuse.jpg
+	map_Kd screen_logo_Diffuse.jpg
+
+newmtl black_Plastic
+	Ns 33.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Noise_Bump.jpg
+	bump Noise_Bump.jpg
+
+newmtl shiny_black_plastic
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl red_color
+	Ns 33.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 1.0000 0.0314 0.0314
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl steel
+	Ns 38.5000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Noise_Bump.jpg
+	bump Noise_Bump.jpg
+
+newmtl Crystal
+	Ns 50.0000
+	Ni 1.6000
+	d 0.7200
+	Tr 0.2800
+	Tf 0.7200 0.7200 0.7200 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0471
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl shiny_plastic
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl camera_static
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0196 0.0510 0.0588
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump Noise_Bump.jpg
+	bump Noise_Bump.jpg
+
+newmtl glass
+	Ns 50.0000
+	Ni 1.0000
+	d 0.1300
+	Tr 0.8700
+	Tf 0.1300 0.1300 0.1300 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Screen
+	Ns 50.0000
+	Ni 1.6000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka gear_360_Screen.jpg
+	map_Kd gear_360_Screen.jpg
