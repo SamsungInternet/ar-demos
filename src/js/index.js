@@ -69,7 +69,6 @@
     });
   });
   
-  var mtlLoader = new THREE.MTLLoader();
   mtlLoader.setTexturePath(gearvrPath);
   mtlLoader.setPath(gearvrPath);
   mtlLoader.load( 'Gear-VR-Note-7.mtl', materials => {
