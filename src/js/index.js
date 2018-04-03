@@ -124,11 +124,11 @@
           jsArucoMarker.markerToObject3D(marker, markerObjectSamsung, canvas);
           markerObjectSamsung.visible = true;
           break;
-        case 265:
+        case 33:
           jsArucoMarker.markerToObject3D(marker, camera360, canvas);
           camera360.visible = true;
           break;
-        case 33:
+        case 265:
           jsArucoMarker.markerToObject3D(marker, gearvr, canvas);
           gearvr.visible = true;
         default:
