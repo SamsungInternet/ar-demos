@@ -52,10 +52,10 @@
   scene.add(gearvr);
   scene.add(camera360);
 
-  var mtlLoader = new THREE.MTLLoader();
-  mtlLoader.setTexturePath(camera360Path);
-  mtlLoader.setPath(camera360Path);
-  mtlLoader.load( 'gear360.mtl', materials => {
+  var camMtlLoader = new THREE.MTLLoader();
+  camMtlLoader.setTexturePath(camera360Path);
+  camMtlLoader.setPath(camera360Path);
+  camMtlLoader.load( 'gear360.mtl', materials => {
     //console.log(materials);
     materials.preload();
     var objLoader = new THREE.OBJLoader();
@@ -69,9 +69,10 @@
     });
   });
   
-  mtlLoader.setTexturePath(gearvrPath);
-  mtlLoader.setPath(gearvrPath);
-  mtlLoader.load( 'Gear-VR-Note-7.mtl', materials => {
+  var gearMtlLoader = new THREE.MTLLoader();
+  gearMtlLoader.setTexturePath(gearvrPath);
+  gearMtlLoader.setPath(gearvrPath);
+  gearMtlLoader.load( 'Gear-VR-Note-7.mtl', materials => {
     //console.log(materials);
     materials.preload();
     var objLoader = new THREE.OBJLoader();
