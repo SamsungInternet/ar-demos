@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>AR demo - Pokemon Go</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- <link rel="stylesheet" href="src/css/index.css"> -->
+        <script src="vendor/three.js/build/three.min.js"></script>
+        <script src="vendor/three.js/examples/js/loaders/GLTF2Loader.js"></script>
+        <script src="vendor/three.js/examples/js/controls/DeviceOrientationControls.js"></script>
+        <script src="vendor/three.js/examples/js/controls/DragControls.js"></script>
+        <script src="vendor/three.js/examples/js/controls/OrbitControls.js"></script>
+        <script src="src/js/camera.js"></script>
+        <style>
+            html, body {
+                height: 100%;
+                width:100%;
+                padding: 0px 0px;
+            }
+            #map {
+                height:100%;
+                width: 100%;
+                /*position: absolute;*/
+            }
+            #image{
+                height: 100%;
+                width: 100%;
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
+        <img id="image" src="src/img/capture.gif">
+    </body>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ9ScwsOfIOwws9PLmDzQpglGlspcw5lw" type="text/javascript"></script>
+    <script src="src/js/pogo.js"></script>
+</html>

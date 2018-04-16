@@ -1,0 +1,468 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 23328,
+      "max": [
+        5.0199699401855469,
+        4.7730698585510254,
+        5.454740047454834
+      ],
+      "min": [
+        -5.0199699401855469,
+        -4.6875,
+        -4.8797001838684082
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 279936,
+      "componentType": 5126,
+      "count": 23328,
+      "max": [
+        0.99998635053634644,
+        0.99999278783798218,
+        0.99999970197677612
+      ],
+      "min": [
+        -0.99998635053634644,
+        -0.99999982118606567,
+        -0.99993276596069336
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 23328,
+      "max": [
+        0.99979895353317261,
+        0.9999997615814209,
+        0.99999278783798218,
+        1
+      ],
+      "min": [
+        -0.99979895353317261,
+        -0.99851381778717041,
+        -0.99999982118606567,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 23328,
+      "max": [
+        0.97162997722625732,
+        0.9892200231552124
+      ],
+      "min": [
+        0.01793999969959259,
+        0.013629999943077564
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 133632,
+      "max": [
+        23327
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 559872,
+      "componentType": 5126,
+      "count": 4098,
+      "max": [
+        0.82686001062393188,
+        1.0922800302505493,
+        1.0803200006484985
+      ],
+      "min": [
+        -4.1269397735595703,
+        -1.0867899656295776,
+        -1.1141899824142456
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 609048,
+      "componentType": 5126,
+      "count": 4098,
+      "max": [
+        0.99991607666015625,
+        0.99822843074798584,
+        0.99914723634719849
+      ],
+      "min": [
+        -0.99987727403640747,
+        -0.99822843074798584,
+        -0.99912333488464355
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 534528,
+      "componentType": 5125,
+      "count": 24192,
+      "max": [
+        4097
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 658224,
+      "componentType": 5126,
+      "count": 258,
+      "max": [
+        0.71654999256134033,
+        -0.19307999312877655,
+        0.27836000919342041
+      ],
+      "min": [
+        -4.0146298408508301,
+        -0.31742000579833984,
+        0.13672000169754028
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 661320,
+      "componentType": 5126,
+      "count": 258,
+      "max": [
+        0.92699211835861206,
+        -0.28523871302604675,
+        0.32377675175666809
+      ],
+      "min": [
+        -0.92567282915115356,
+        -0.3985176682472229,
+        0.20200636982917786
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 631296,
+      "componentType": 5125,
+      "count": 1152,
+      "max": [
+        257
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Katerina Novakova (https://sketchfab.com/KaterinaNovakova)",
+      "license": "CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)",
+      "source": "https://sketchfab.com/models/aed89b4ee4f1421abc2b1613911d0ca8",
+      "title": "Pokemon - Magikarp"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 635904,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 186624,
+      "byteOffset": 635904,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 664416,
+      "byteOffset": 822528,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 373248,
+      "byteOffset": 1486944,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1860192,
+      "uri": "magikarp.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/magicarpBody_normal.png"
+    },
+    {
+      "uri": "textures/magicarpBody_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "magicarpBody",
+      "normalTexture": {
+        "index": 0,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "eyeWhite",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "eyeBlack",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0017123756999999999,
+          0.0016593375,
+          0.0016593375,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Magikarp_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Eye_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Eye_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8
+          },
+          "indices": 10,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.43583000000000005,
+        0.68929000000000018,
+        -0.24054000000000003,
+        1
+      ],
+      "name": "Magikarp"
+    },
+    {
+      "mesh": 0,
+      "name": "Magikarp_0"
+    },
+    {
+      "children": [
+        6,
+        7
+      ],
+      "matrix": [
+        0.87253000000000003,
+        0.00088000000000000025,
+        0.0029900000000000009,
+        0,
+        -0.00042000000000000013,
+        0.86281000000000008,
+        -0.12986,
+        0,
+        -0.0030900000000000012,
+        0.12986,
+        0.86281000000000008,
+        0,
+        1.44021,
+        -2.3756399999999993,
+        0.98769000000000007,
+        1
+      ],
+      "name": "Eye"
+    },
+    {
+      "mesh": 1,
+      "name": "Eye_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Eye_1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    }
+  ]
+}
+
