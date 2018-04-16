@@ -1,8 +1,8 @@
 (function(){
 	// webrtc works only in secure origins
-  // if (location.protocol != 'https:') {
-  //   location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-  // }
+  if (location.protocol != 'https:') {
+    location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+  }
 
 	// global vars and init three.js stuff 
 	let gMap = document.getElementById("map");
@@ -16,8 +16,8 @@
   //initilize three js and webgl
 	let scene = new THREE.Scene();
   let camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-  //let controls = new THREE.DeviceOrientationControls( camera );
-  let controls = new THREE.OrbitControls( camera );
+  let controls = new THREE.DeviceOrientationControls( camera );
+  //let controls = new THREE.OrbitControls( camera );
   camera.position.z = 50;
   camera.position.y = 20;
   controls.update();
@@ -214,7 +214,7 @@
           	console.log(name);
           	gMap.style.display = "none";
           	loadModel("src/obj/"+ name + "/",  name, feature.scaleX, feature.scaleY, feature.scaleZ, feature.rotateX, feature.rotateY, feature.rotateZ, feature.positionY,feature.positionZ);
-          	//initCamera();
+          	initCamera();
         		//console.log(feature.number + ": " + allMarkers[feature.number]);
         		console.log(scene);
         		allMarkers[feature.number].setMap(null);
